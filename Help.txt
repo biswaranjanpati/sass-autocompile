@@ -1,0 +1,25 @@
+I have faced lots of issues while using the Atom Sass-Autocompiler. 
+This is my SCSS folder architeture
+
+
+Index.html
+
+CSS   |
+      |  main.css
+      
+SASS  |
+      |  main.scss        (  @import "_element.scss";   @import "_helper.scss";  )
+      |  _elements.scss
+      |  _helper.scss
+      
+      
+ 
+ On changing the elements.scss or helper.scss it will update the main.css file. This is the setting you all have to do
+ 
+ Click on setting on Autocompiler and enable these things...
+ 1. Compile on save
+ 2. Compile with 'expanded' output style
+ 3. On filename pattern for 'expanded' compiled files mention the path, i.e ../CSS/main.css //this is for my case
+ 
+ you are on.....enjoy
+      
