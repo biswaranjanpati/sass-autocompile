@@ -9,8 +9,8 @@ CSS   |
       
 SASS  |
       |  main.scss        (  @import "_element.scss";   @import "_helper.scss";  )
-      |  _elements.scss
-      |  _helper.scss
+      |  _elements.scss   (  add on first line /* main : ../CSS/base.scss*/   ) //  this points this SCSS file to main.scss
+      |  _helper.scss     (  add on first line /* main : ../CSS/base.scss*/   ) //  this points this SCSS file to main.scss
       
       
  
